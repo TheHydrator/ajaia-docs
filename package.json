@@ -1,0 +1,42 @@
+{
+  "name": "ajaia-docs",
+  "version": "1.0.0",
+  "description": "Lightweight collaborative document editor",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "start": "node server/index.js",
+    "build": "vite build",
+    "dev:server": "node --watch server/index.js",
+    "dev:client": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "private": true,
+  "dependencies": {
+    "@electric-sql/pglite": "^0.5.16",
+    "@tiptap/pm": "^3.33.1",
+    "@tiptap/react": "^3.33.1",
+    "@tiptap/starter-kit": "^3.33.1",
+    "@vitejs/plugin-react": "^6.3.0",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "mammoth": "^1.13.0",
+    "marked": "^18.2.0",
+    "multer": "^2.5.0",
+    "pg": "^8.23.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^7.18.5",
+    "sanitize-html": "^2.18.1",
+    "vite": "^8.3.7"
+  },
+  "devDependencies": {
+    "supertest": "^7.3.2"
+  }
+}

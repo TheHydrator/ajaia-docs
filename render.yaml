@@ -1,0 +1,21 @@
+# Render Blueprint: one free web service plus one free Postgres database.
+# In Render: New > Blueprint > pick this repo > Apply.
+databases:
+  - name: ajaia-docs-db
+    plan: free
+
+services:
+  - type: web
+    name: ajaia-docs
+    runtime: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: JWT_SECRET
+        generateValue: true
+      - key: DATABASE_URL
+        fromDatabase:
+          name: ajaia-docs-db
+          property: connectionString

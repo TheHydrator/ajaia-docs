@@ -1,0 +1,6 @@
+Plain text import sample
+
+Blank lines separate paragraphs.
+Single line breaks inside a paragraph are kept as line breaks.
+
+Characters like <b> and & are shown as text, not treated as HTML.

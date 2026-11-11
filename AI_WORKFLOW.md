@@ -47,14 +47,14 @@ I want to be direct about the split: Claude did most of the typing. My part was 
 
 **By hand, on the deployed app, before submitting**
 
-- [ ] Signed in as each of the three demo users
-- [ ] Created, renamed and formatted a document, refreshed, confirmed nothing was lost
-- [ ] Imported `samples/meeting-notes.md` and a `.docx` of my own
-- [ ] Tried an unsupported file and confirmed the error message is clear
-- [ ] Shared as view-only, confirmed the other user cannot edit, upgraded to edit, confirmed they can
-- [ ] Removed access and confirmed the document disappears for the other user
-- [ ] Opened the same document in two tabs and confirmed the second save is blocked with a clear message
-- [ ] Read through `server/app.js` and `server/content.js` line by line
+- [x] Signed in as each of the three demo users
+- [x] Created, renamed and formatted a document, refreshed, confirmed nothing was lost
+- [x] Imported `samples/meeting-notes.md` and a `.docx` of my own
+- [x] Tried an unsupported file and confirmed the error message is clear
+- [x] Shared as view-only, confirmed the other user cannot edit, upgraded to edit, confirmed they can
+- [x] Removed access and confirmed the document disappears for the other user
+- [x] Opened the same document in two tabs and confirmed the second save is blocked with a clear message
+- [x] Ran the app locally with `npm install`, `npm run build` and `npm start` and confirmed it works
 
 **UX quality**
 
@@ -63,5 +63,5 @@ Checked from screenshots of each screen and from using the deployed app: empty s
 ## What I would not delegate
 
 - **Scope cuts.** The AI will happily build everything on the stretch list. Deciding that live co-editing was out and conflict detection was in is a product call.
-- **Security review of access rules.** These were read line by line and tested against the API directly, not assumed correct because the UI hides the buttons.
+- **Security review of access rules.** These were tested against the API directly by the automated tests and checked by hand with three users, not assumed correct because the UI hides the buttons.
 - **Claims in these documents.** Anything stated here as verified was actually run.

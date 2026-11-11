@@ -9,6 +9,7 @@
 | --- | --- |
 | Live app | https://ajaia-docs-hzw3.onrender.com |
 | Google Drive folder | https://drive.google.com/drive/folders/1wsGRjpzJBifpgCbgzSbZxg3_0hwAlrnN?usp=sharing |
+| GitHub repository | https://github.com/TheHydrator/ajaia-docs |
 | Walkthrough video (3 to 5 min) | https://drive.google.com/file/d/1Fhlz4wccaE9cxrBVUs8CLjXz9u8ZYKfO/view?usp=sharing |
 
 The live app is on a free tier that sleeps when idle. The first load can take up to a minute.

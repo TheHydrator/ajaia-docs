@@ -4,7 +4,7 @@ A lightweight collaborative document editor: create and format documents in the 
 
 Built for the Ajaia AI-Native Full Stack Developer assignment.
 
-- **Live app:** `REPLACE_WITH_LIVE_URL`
+- **Live app:** https://ajaia-docs-hzw3.onrender.com
 - **Walkthrough video:** see `VIDEO_URL.txt`
 - **Architecture note:** [ARCHITECTURE.md](ARCHITECTURE.md)
 - **AI workflow note:** [AI_WORKFLOW.md](AI_WORKFLOW.md)

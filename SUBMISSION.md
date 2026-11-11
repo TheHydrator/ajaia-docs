@@ -7,9 +7,9 @@
 
 | Item | Link |
 | --- | --- |
-| Live app | `REPLACE_WITH_LIVE_URL` |
-| Google Drive folder | `REPLACE_WITH_DRIVE_FOLDER_URL` |
-| Walkthrough video (3 to 5 min) | `REPLACE_WITH_VIDEO_URL` |
+| Live app | https://ajaia-docs-hzw3.onrender.com |
+| Google Drive folder | https://drive.google.com/drive/folders/1wsGRjpzJBifpgCbgzSbZxg3_0hwAlrnN?usp=sharing |
+| Walkthrough video (3 to 5 min) | https://drive.google.com/file/d/1Fhlz4wccaE9cxrBVUs8CLjXz9u8ZYKfO/view?usp=sharing |
 
 The live app is on a free tier that sleeps when idle. The first load can take up to a minute.
 
